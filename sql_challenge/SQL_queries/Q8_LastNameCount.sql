@@ -1,3 +1,3 @@
-SELECT last_name, COUNT(last_name) FROM Employees
-GROUP BY last_name
-ORDER BY count(last_name) desc;
+SELECT Last_Name, COUNT(Last_Name) FROM Employees
+GROUP BY Last_Name
+ORDER BY count(Last_Name) desc;
